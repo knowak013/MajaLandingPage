@@ -1,0 +1,17 @@
+h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+  }
+  
+  .home p {
+    font-weight: 400;
+    font-size: 32px;
+  }
+  
+  .about-me--box-desc p{
+    font-size: 24px;
+
+
+}

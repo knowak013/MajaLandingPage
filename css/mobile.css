@@ -1,0 +1,476 @@
+body{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+:root{
+    --green-gradient: linear-gradient(180deg, #A2D95F 37.5%, #59A938 100%);
+    --dark: #212121;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 3.16em;
+    justify-content: space-between;
+    align-items: center;
+    height: 35em;
+}
+
+.menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 3.33em;
+    position: fixed;
+    background-color: white;
+    top:0;
+    left: 0;
+    z-index: 100000;
+  
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    margin-right: 1em;
+ 
+    
+}
+
+header{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+ 
+    display: flex;
+    height:2.7em;
+    align-items: center;
+    margin-left: 1em;
+}
+.logo-img{  
+    height:2.7em;
+    width: auto;
+}
+.logo-text{
+    background-image: var(--green-gradient);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: 1.2em;
+    height:2.7em;
+    line-height: 2.7em;
+    text-align: center;
+    font-family: 'Marcellus SC';
+    font-size: 12px;
+}
+
+.menu-line1{
+    width: 35px;
+    height: 4px;
+    background: var(--green-gradient);
+    border-radius: 50px;
+    margin-bottom: 0;
+
+}
+.menu-line2{
+    width: 25px;
+    height: 4px;
+    background: var(--green-gradient);
+    border-radius: 50px;
+}
+
+.green-line{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%,    rgba(162, 217, 95, 1) 36.98% ,    rgba(89, 169, 56, 1) 100%);
+    height: 0.16em ;
+    opacity: 50%;
+    margin-top: 3.33em;
+}
+nav{
+    display: none;
+}
+
+
+/* NAV ACTIVE */
+
+.active{
+    height: 100%;
+    background: var(--green-gradient);
+}
+
+.menu-active{
+background: var(--dark);
+
+}
+
+.navbar{
+    display: flex;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: #A2D95F;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 2.5em;
+    padding-top: 3em;
+    gap: 3em;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 1em;
+    line-height: 30px;
+    color: var(--dark);
+}
+.hidde-logo{
+   
+    visibility: hidden;
+}
+
+.hidde{
+    display: none;
+}
+
+.blur{
+    filter: blur(4px);
+}
+
+.menu-wrapper-active{
+    background-color: #A2D95F;
+}
+/* HOME */
+ 
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+        margin-bottom: 10em;
+
+
+}
+
+.home-green-background{
+   background-image: url("../assets/BG.svg"); 
+   height:50vh;
+   background-size: 100% auto;
+   background-position: right top;
+   background-repeat: no-repeat;
+ 
+}
+.home-lady-wrapper{
+    top: 6.3em;
+    position: absolute;
+    width: 100%;
+}
+.home-lady{
+  
+    width: 85%;
+    max-height: 15.16em;;
+}
+.home-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 87.2%;
+    margin: 2em auto 2em auto;
+    top: 22em;
+    position: absolute;
+    width: 100%;
+}
+
+
+h1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.home p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.home button{
+    font-weight: 600;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    gap: 10px;
+    background: var(--green-gradient);
+    width: 8.3em;
+    height: 2.1em;
+    border-radius: 20px;
+    border: none;
+}
+/* About Me */
+
+.green-line-bottom{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%,    rgba(162, 217, 95, 1) 36.98% ,    rgba(89, 169, 56, 1) 100%);
+    height: 0.16em ;
+    opacity: 50%;
+}
+
+
+.about-me{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: start;
+    margin-left: 5.5%;
+    margin-top: 2em;
+}
+
+.about-me--box{
+    margin: 2.7em 5.5vw;
+    background: var(--green-gradient);
+    border-radius: 20px 20px 20px 20px;
+}
+.about-me--box img{
+    margin: 0;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    
+ 
+}
+
+.about-me--box-desc{
+
+    border-radius: 0px 0px 20px 20px;
+    margin: 0;
+
+}
+
+h3{
+    margin: 1.4em 0 0.7em 0;
+    color: #212121;
+    font-size: 28px;
+}
+.about-me--box-desc p{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0.5em 0.5em 2.5em 0.5em ;
+}
+
+/* How Works*/
+.arrow-right{
+    display: none;
+}
+.how-works--box{
+    margin-top: 2.7em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.how-works--box-step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 74vw;
+    height: 20.7em;
+    margin-bottom: 1.38em;
+}
+.elipse{
+    background-image: url("../assets/Ellipse\ 5.svg") ;
+    background-repeat: no-repeat;
+    height: 5.5em;
+    width: 5.5em;
+    background-size: contain;
+    position: relative;
+}
+.elipse img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h4{
+    font-weight: 700;
+    font-size: 28px;
+    color: #212121;
+    line-height: 34px;
+    text-align: center;
+
+}
+
+.how-works--box-step p {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+/* PRICE LSIT*/
+
+.priceList .green-line-bottom{
+    margin-bottom: 2.7em;
+}
+.arrow-long{
+    display: none;
+}
+
+.greenBox {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.3em;
+    border: 1.5px solid #59A938 ;
+    border-radius: 20px;
+    padding: 10px 25px;
+    gap: 10px;
+  }
+
+.price{
+    font-weight: 700;
+}
+.boxWrapper p{
+    text-align: center;
+}
+.greenBox p {
+    text-align: center;
+    margin-bottom: 0.4em;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+/*FAQ*/
+
+.faq .green-line-bottom{
+    margin-bottom: 2.7em;
+}
+
+.faq{
+    margin-top: 2em;
+}
+
+.black-line{
+    margin: 0.4em 0;
+    height: 0.05em;
+    background-color: black;
+}
+
+.faq-box-left p{
+    text-align: left;
+}
+
+.faq-green-box{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+   /* align-items: top;*/
+    justify-content: center;
+    margin-bottom: 1.3em;
+    border: 1.5px solid #59A938 ;
+    border-radius: 20px;
+    padding: 10px 25px;
+    gap: 10px;
+
+}
+.faq-arrow-button{
+    display: flex;
+    justify-content: center;
+}
+.faq-box-question{
+    display: flex;
+    justify-content: space-between;
+}
+.faq-box-question p{
+    text-align: left;
+}
+
+.faq-green-box p{
+    text-align: left;
+
+}
+.faq-box-answer{
+    display: none;
+}
+
+.faq-green-box-active{
+    background: linear-gradient(180deg, #A2D95F 37.50%, #59A938 100%);
+}
+
+/*** FOOTER ***/
+
+footer .green-line-bottom{
+    margin-bottom: 2.7em;
+}
+
+.google-map{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    background: var(--green-gradient);
+}
+.contact-data{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 2.2em;
+
+
+}
+.contact-element{
+    margin: 0 auto;
+display: flex;
+justify-content: center;
+width: 63%;
+
+
+}   
+
+.contact-element p{
+font-size: 18px;
+margin-left: 1.5em;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+
+iframe{
+    width: 100vw;
+}
+.contact-social-media{
+    display: flex;
+    justify-content: center;
+   
+}
+.contact-social-media svg{
+    margin: 1.7em;
+}

@@ -1,0 +1,16 @@
+{
+  "faq": [
+    {
+      "question": "Po ilu zabiegach zobaczę efekty?",
+      "answer": "Już po pierwszym zabiegu powinniśmy dostrzec zdecydowaną poprawę kondycji skóry. Ostateczny efekt będzie widoczny po wykonaniu zalecanej serii zabiegów."
+    },
+    {
+      "question": "Rorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "answer": "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    {
+      "question": "Rorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "answer": "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    }
+  ]
+}

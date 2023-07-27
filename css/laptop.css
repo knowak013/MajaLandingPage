@@ -1,0 +1,331 @@
+.menu{
+    display: none;
+}
+
+.logo-text{
+    background-image: var(--green-gradient);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: 1.2em;
+    height:2.7em;
+    line-height: 2.7em;
+    text-align: center;
+    font-family: 'Marcellus SC';
+    font-size: 24px;
+}
+
+.hidde{
+    display: flex;
+}
+
+header{
+    align-items: flex-end;
+    margin: 0 5.5vw;
+}
+
+
+.navbar{
+    z-index: 10000000000;
+    flex-direction: row;
+    text-decoration: none;
+   background-color: white;
+    position: fixed;
+    height: 3.33em;
+    width: 34em;
+    margin-top: 0em;
+    padding-top: 0em;
+    gap: 1.5em;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 0em;
+    line-height: 1.5em;
+    color: var(--dark);
+    font-size: 14px;
+    text-align: center;
+}
+nav a:hover{
+    border-bottom: 1px solid #212121;
+}
+.logo{
+ 
+    display: flex;
+    height:2.7em;
+    align-items: center;
+    margin-left: 5.5vw;
+}
+
+/* HOME */
+.home{
+    margin-bottom: 0;
+}
+
+
+  .home-green-background {
+    background-image: url("../assets/BG.svg"); 
+    height: 100vh;
+    background-size: 100% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .home-lady-wrapper{
+    top: auto;
+    position: relative;
+    width: auto;
+}
+.home-lady{
+  margin-left: 10vw;
+    width: 46vw;
+    max-height: 35em;
+    margin-bottom: 12vw;
+}
+.home-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    margin: 0 0;
+    top: auto;
+    position: relative;
+    width: 32%;
+}
+  h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+  }
+  
+  .home p {
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+  .home button {
+  
+    font-size: 18px;
+   
+  }
+  
+/* About Me */
+
+
+.about-me{
+  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+h2{
+   
+    margin-top: 0em;
+}
+
+.about-me--box{
+ 
+    display: flex;
+}
+.about-me--box img{
+ 
+    border-radius: 20px 0px 0px 20px;
+   width: 33vw;
+
+    max-width: 100%;
+    height: auto;
+ 
+}
+.about-me--box-desc{
+
+    border-radius: 0px 0px 20px 20px;
+    margin: 0;
+    width: 100%;
+    padding: 2em 2em;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    margin: 0.5em 0;
+    color: #212121;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+.about-me--box-desc p{
+    font-size: 18px;
+    line-height: 1.3em;
+    text-align: left;
+    margin: 0 0;
+}
+
+/* How Works*/
+
+.how-works--box{
+
+   
+    flex-direction: row;
+
+    align-items: flex-start
+
+}
+
+.about-me--box img{
+    margin: 0;
+    border-radius: 20px 20px 0px 0px;
+    width: 70%;
+    
+ 
+}
+h4{
+    font-size: 26px;
+  margin-bottom: 1em;
+    
+}
+.how-works--box-step p {
+    font-size: 20px;
+
+}
+.how-works--box-step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: auto;
+    margin-bottom: 0;
+}
+.arrow-down{
+    
+    display: none;
+}
+.arrow-right{
+    margin-top: 2.2em;
+    display: block;
+}
+
+
+/* PRICE LSIT*/
+
+.priceList .green-line-bottom{
+    margin-bottom: 2.7em;
+}
+.arrow-long{
+    display: block;
+}
+
+
+.greenBox {
+    margin: 0 5.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.3em;
+    border: 1.5px solid #59A938 ;
+    border-radius: 20px;
+    padding: 10px 25px;
+    gap: 10px;
+ 
+  }
+  .arrow-right-green-box{
+    margin-top: 0;
+    display: block;
+}
+
+.green-box-desc{
+    width: 24vw;
+}
+
+.price{
+    font-weight: 700;
+    width: 31vw;
+}
+.boxWrapper p{
+    text-align: center;
+}
+.greenBox p {
+    text-align: center;
+    margin-bottom: 0.4em;
+    font-size: 24px;
+    line-height: 29px;
+
+
+}
+.green-box-zabieg{
+   width: 12vw;
+}
+
+/*FAQ*/
+.faq-green-box {
+    margin: 1.3em 5.5vw;
+}
+/*** FOOTER ***/
+
+footer .green-line-bottom{
+    margin-bottom: 2.7em;
+}
+
+.google-map{
+    display: flex;
+    justify-content: center;
+    height: 26em;
+}
+.contact{
+    background: var(--green-gradient);
+}
+.contact-data{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 2.2em;
+
+
+}
+.contact-element{
+    margin: 0 auto;
+display: flex;
+justify-content: center;
+width: 63%;
+
+
+}   
+
+.contact-element p{
+font-size: 18px;
+margin-left: 1.5em;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+
+iframe{
+    width: 100vw;
+}
+.contact-social-media{
+    display: flex;
+    justify-content: center;
+   
+}
+.contact-social-media svg{
+    margin: 1.7em;
+}
